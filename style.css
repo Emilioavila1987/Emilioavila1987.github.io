@@ -1,0 +1,135 @@
+/* .content{
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: white;
+} */
+
+
+.menu-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    /* border: 40px; */   
+    gap: 5px;
+    font-size: 18px;
+    width: 100%;
+    
+    
+    
+
+    
+}
+.logo{
+    width: 130px;
+    border: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+/* .logo1{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    text-decoration: none;
+    
+} */
+.hoy{
+    margin: 5px;
+    border:5px;
+    padding: 5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+}
+.hoy:hover{
+    transition: all 0.1s;
+    filter: brightness(90%);
+}
+.explorar{
+    margin: 10px;
+    border:10px;
+    padding: 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-items: center; 
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;   
+}
+.explorar:hover{
+    transition: all 0.1s;
+    filter: brightness(90%);
+
+}
+.barra-nav{
+    border-radius: 30px;
+    margin: 1px;
+    font-size: medium;
+    border-color: rgb(232, 229, 229);
+    width: 600px;
+    height: 40px;
+}
+.boton1{
+    display: grid;
+    place-items: center;
+    border: 0;
+    border-radius: 30px;
+    background-color: rgb(223, 220, 220);
+    color: black;
+    text-decoration: none;
+    width: 110px;
+    padding: 10px;
+}
+.boton1:hover{
+    transition: all 0.2s;
+    filter: brightness(60%);
+}
+
+.boton2{
+    display: grid;
+    place-items: center;
+    border: 0;
+    border-radius: 30px;
+    background-color: rgb(243, 4, 4);
+    text-decoration: none;
+    color: white;
+    width: 110px;
+    padding: 10px;
+}
+.boton2:hover{
+
+    transition: all 0.2s;
+    filter: brightness(60%);
+}
+.gallery{
+    
+    columns: 5;
+    margin: 20px;
+    gap: 20px;
+}
+.card-image{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+.card-image:hover{
+    transition: all 0.1s;
+    filter: brightness(50%);
+
+}
+.text{
+    text-align: justify;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
